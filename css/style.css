@@ -1,0 +1,41 @@
+body {
+    margin:0;
+    font-family:'Play', sans-serif;
+    color:white;
+}
+
+.container {
+    width:90%;
+    margin:0 auto;
+}
+
+.banner-area {
+    height:100vh;
+    background:url(../assets/img/spacebackground.jpg);
+    background-size:contain;
+}
+
+.banner_text-area {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+
+.banner_sus-area {
+    margin-top:2rem;
+}
+
+.banner_text-area button {
+    border:none;
+    padding:1.5rem 1rem;
+    border-radius:10px;
+    font-size:20px;
+    font-family:'Play', sans-serif;
+    cursor: pointer;
+}
+
+.banner_text-area button:focus,button:active {
+    outline:none;
+}
