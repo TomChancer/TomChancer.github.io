@@ -2,6 +2,7 @@ body {
     margin:0;
     font-family:'Play', sans-serif;
     color:white;
+    overflow:hidden;
 }
 
 .container {
@@ -42,6 +43,19 @@ body {
     left:40%;
     animation-name:spin;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 7000ms;
+}
+
+.background-crewmate-ejected {
+    position:absolute;
+    top:40%;
+    left:-80px;
+}
+
+.eject-animation {
+    animation-name:eject;
+    animation-iteration-count:;
     animation-timing-function: linear;
     animation-duration: 7000ms;
 }
@@ -123,5 +137,15 @@ body {
 
     to {
         transform:rotate(360deg);
+    }
+}
+
+@keyframes eject {
+    from {
+        transform:translateX(-80px) rotate(0deg) scaleX(-1);
+    }
+
+    to {
+        transform:translateX(2000px) rotate(720deg) scaleX(-1);
     }
 }
