@@ -1,16 +1,25 @@
 {
     "roles": [
         {
-            "roleName": "Joker",
-            "roleDescription": "You must act and play like an Imposter. Fake tasks, follow people. Act kinda sus bro..."
+            "roleName": "joker",
+            "roleDescription": "You must act and play like an Imposter. Fake tasks, follow people. Act kinda sus bro...",
+            "roleCredit": "Chancer"
         },
         {
-            "roleName": "Dangerous Cop",
-            "roleDescription": "Make them feel the wrath of an angry space officer. Everyone is sus, and you will make sure they know about it..."
+            "roleName": "dangerous cop",
+            "roleDescription": "Make them feel the wrath of an angry space officer. Everyone is sus, and you will make sure they know about it...",
+            "roleCredit": "Chancer"
+            
         },
         {
-            "roleName": "The forgetful",
-            "roleDescription": "Did you do medbay? or was it reactor refueling? Wait.. can you fix lights in navigation? You arent sure what youve done..."
+            "roleName": "forgetful crewmate",
+            "roleDescription": "Did you do medbay? or was it reactor refueling? Wait.. can you fix lights in navigation? You arent sure what youve done...",
+            "roleCredit": "Chancer"
+        },
+        {
+            "roleName": "mute",
+            "roleDescription": "No speaking! No Typing! You are a quiet, busy little crewmate...",
+            "roleCredit": "Ashius"
         }
     ]
 }
