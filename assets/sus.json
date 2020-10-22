@@ -20,6 +20,11 @@
             "roleName": "mute",
             "roleDescription": "No speaking! No Typing! You are a quiet, busy little crewmate...",
             "roleCredit": "Ashius"
+        },
+        {
+            "roleName": "patrolman",
+            "roleDescription": "Nothing gets past you. You keep a tidy and orderly ship. You must patrol the ship after every completed task.",
+            "roleCredit": "Chancer"
         }
     ]
 }
