@@ -72,14 +72,6 @@ body {
     height:100%;
 }
 
-.type-anim {
-    margin: 10px 0 0 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    width:0%;
-    animation: type 2.7s steps(60, end) forwards;
-}
-
 .banner_sus-area {
     margin-top:2rem;
 }
@@ -174,9 +166,3 @@ body {
         transform:translateX(130vw) rotate(720deg) scaleX(-1);
     }
 }
-
-@keyframes type{ 
-    from { width: 0%; } 
-
-    to { width: 100%; }
-  } 

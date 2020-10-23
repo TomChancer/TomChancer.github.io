@@ -8,18 +8,6 @@ init().then(response => suslist = response);
 
 async function actSus() {
     //Animation & Sound Logic logic
-    var roleNameElem = document.querySelector('#role-name');
-    var roleDescElem = document.querySelector('#role-description');
-
-    roleNameElem.classList.remove('type-anim');
-    roleDescElem.classList.remove('type-anim');
-
-    void roleNameElem.offsetWidth;
-    void roleDescElem.offsetWidth;
-
-    roleNameElem.classList.add('type-anim');
-    roleDescElem.classList.add('type-anim');
-
     new Audio('assets/sounds/eject.mp3').play();
     document.querySelector('.background-crewmate-ejected').classList.add("eject-animation");
 
