@@ -8,16 +8,15 @@ init().then(response => suslist = response);
 
 async function actSus() {
     //Animation & Sound Logic logic
-    new Audio('assets/sounds/eject.mp3').play();
+    var audio = new Audio('assets/sounds/eject.mp3'); 
+    audio.play();
+
     document.querySelector('.background-crewmate-ejected').classList.add("eject-animation");
 
     setTimeout(function() {
         document.querySelector('.background-crewmate-ejected').classList.remove("eject-animation");
     }, 7000);
     
-    
-
-
     //Actual Logic.
     var randomIndex = Math.floor((Math.random() * suslist.roles.length));
     
