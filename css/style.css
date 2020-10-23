@@ -15,6 +15,22 @@ body {
     margin:0 auto;
 }
 
+.footer-area {
+    position: fixed;
+    bottom: 2%;
+    right: 5%;
+}
+
+.social-icons {
+    display:flex;
+}
+
+.social-icons img {
+    height:50px;
+    width:auto;
+    margin:0 0.5rem;
+}
+
 .banner-area {
     height:100vh;
     background:url(../assets/img/spacebackground.jpg);
