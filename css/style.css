@@ -15,6 +15,12 @@ body {
     margin:0 auto;
 }
 
+.logo {
+    width:100%;
+    height:auto;
+    max-width:325px;
+}
+
 .footer-area {
     position: fixed;
     bottom: 2%;
@@ -45,7 +51,7 @@ body {
 
 .background-crewmate-1 {
     position:absolute;
-    top:10%;
+    top:7%;
     left:10%;
     animation-name:spin;
     animation-iteration-count: infinite;
@@ -55,7 +61,7 @@ body {
 
 .background-crewmate-2 {
     position:absolute;
-    top:20%;
+    top:15%;
     right:15%;
     animation-name:spin;
     animation-iteration-count: infinite;
@@ -65,8 +71,8 @@ body {
 
 .background-crewmate-3 {
     position:absolute;
-    bottom:11%;
-    left:40%;
+    bottom:3%;
+    left:20%;
     animation-name:spin;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -119,6 +125,21 @@ body {
 
     .banner_text-area {
         height:80%;
+    }
+
+    .background-crewmate-1 {
+        top:10%;
+        left:10%;
+    }
+
+    .background-crewmate-2 {
+        top:20%;
+        right:15%;
+    }
+
+    .background-crewmate-3 {
+        bottom:11%;
+        left:40%;
     }
 }
 
