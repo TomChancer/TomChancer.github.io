@@ -23,7 +23,32 @@
         },
         {
             "roleName": "patrolman",
-            "roleDescription": "Nothing gets past you. You keep a tidy and orderly ship. You must patrol the ship after every completed task.",
+            "roleDescription": "Nothing gets past you. You keep a tidy and orderly ship. You must patrol the ship after every completed task...",
+            "roleCredit": "Chancer"
+        },
+        {
+            "roleName": "compulsive liar",
+            "roleDescription": "You definitely just did a medbay scan then went to security. Lie about your position, alibi's and tasks completed...",
+            "roleCredit": "Chancer"
+        },
+        {
+            "roleName": "paranoid little spaceman",
+            "roleDescription": "It could be green.. It could be red... wait, did someone just walk through that door? Every time you see someone, you must run in the opposite direction...",
+            "roleCredit": "Chancer"
+        },
+        {
+            "roleName": "procrastinating crewmate",
+            "roleDescription": "You'll finish that task next round, you promise. Purposefully take longer on tasks. Add 5 - 10 seconds before moving away from a finished task...",
+            "roleCredit": "Chancer"
+        },
+        {
+            "roleName": "necromaniac",
+            "roleDescription": "Is that a corpse? Its your lucky day! You must hang around dead crewmates for atleast 10 seconds before reporting or leaving...",
+            "roleCredit": "Chancer"
+        },
+        {
+            "roleName": "workaholic",
+            "roleDescription": "No time to dilly-dally, There are tasks to be done! You must always proceed to your next task, you dont waste time on reporting bodies or calling emergency meetings",
             "roleCredit": "Chancer"
         }
     ]

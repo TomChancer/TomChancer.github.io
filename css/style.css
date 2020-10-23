@@ -45,7 +45,7 @@ body {
 
 .background-crewmate-3 {
     position:absolute;
-    bottom:15%;
+    bottom:11%;
     left:40%;
     animation-name:spin;
     animation-iteration-count: infinite;
