@@ -15,6 +15,7 @@ body {
     background:url(../assets/img/spacebackground.jpg);
     background-size:contain;
     position:relative;
+    overflow:hidden;
 }
 
 .background-crewmate-1 {
@@ -142,10 +143,10 @@ body {
 
 @keyframes eject {
     from {
-        transform:translateX(-80px) rotate(0deg) scaleX(-1);
+        transform:translateX(-1vw) rotate(0deg) scaleX(-1);
     }
 
     to {
-        transform:translateX(2000px) rotate(720deg) scaleX(-1);
+        transform:translateX(130vw) rotate(720deg) scaleX(-1);
     }
 }
