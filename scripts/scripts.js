@@ -7,13 +7,28 @@ var suslist = [];
 init().then(response => suslist = response);
 
 async function actSus() {
-    //Animation logic
+    //Animation & Sound Logic logic
+    var roleNameElem = document.querySelector('#role-name');
+    var roleDescElem = document.querySelector('#role-description');
+
+    roleNameElem.classList.remove('type-anim');
+    roleDescElem.classList.remove('type-anim');
+
+    void roleNameElem.offsetWidth;
+    void roleDescElem.offsetWidth;
+
+    roleNameElem.classList.add('type-anim');
+    roleDescElem.classList.add('type-anim');
+
+    new Audio('assets/sounds/eject.mp3').play();
     document.querySelector('.background-crewmate-ejected').classList.add("eject-animation");
 
     setTimeout(function() {
         document.querySelector('.background-crewmate-ejected').classList.remove("eject-animation");
     }, 7000);
     
+    
+
 
     //Actual Logic.
     var randomIndex = Math.floor((Math.random() * suslist.roles.length));
@@ -22,6 +37,6 @@ async function actSus() {
     var roleTitle = randomRole.roleName;
     var roleDescription = randomRole.roleDescription;
 
-    document.querySelector('#role-name').innerHTML = roleTitle;
+    document.querySelector('#role-name').innerHTML = "You are a " + roleTitle;
     document.querySelector('#role-description').innerHTML = roleDescription;
 }

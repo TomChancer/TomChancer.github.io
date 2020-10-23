@@ -18,6 +18,10 @@ body {
     overflow:hidden;
 }
 
+.banner-area h1{
+    display:none
+}   
+
 .background-crewmate-1 {
     position:absolute;
     top:10%;
@@ -56,7 +60,6 @@ body {
 
 .eject-animation {
     animation-name:eject;
-    animation-iteration-count:;
     animation-timing-function: linear;
     animation-duration: 7000ms;
 }
@@ -67,6 +70,14 @@ body {
     justify-content:center;
     align-items:center;
     height:100%;
+}
+
+.type-anim {
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width:0%;
+    animation: type 2.7s steps(60, end) forwards;
 }
 
 .banner_sus-area {
@@ -84,6 +95,18 @@ body {
 
 .banner_text-area button:focus,button:active {
     outline:none;
+}
+
+/* Media Queries */
+
+@media (min-width:1024px) {
+    .banner-area h1 {
+        display:block;
+    }
+
+    .banner_text-area {
+        height:80%;
+    }
 }
 
 /* Crewmates */
@@ -131,6 +154,7 @@ body {
     background-image:url('../assets/img/yellow.png');
 }
 
+
 @keyframes spin{
     from {
         transform:rotate(0deg);
@@ -150,3 +174,9 @@ body {
         transform:translateX(130vw) rotate(720deg) scaleX(-1);
     }
 }
+
+@keyframes type{ 
+    from { width: 0%; } 
+
+    to { width: 100%; }
+  } 
