@@ -108,6 +108,8 @@ body {
     padding:1.5rem 1rem;
     border-radius:10px;
     font-size:20px;
+    background-color:white;
+    color:black;
     font-family:'Play', sans-serif;
     cursor: pointer;
 }
